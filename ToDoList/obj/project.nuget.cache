@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "PWpNCzoQdA1ekQuraGufAv1FYuFxC9HV8QvCPf8kSQiM+jzqoUOycBlpNfj73K6TbX7RpZZEHcJNIwwxLdsijw==",
+  "success": true,
+  "projectFilePath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList\\ToDoList.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://dev-everest:4000/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}
