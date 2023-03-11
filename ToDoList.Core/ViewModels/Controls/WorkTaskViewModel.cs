@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ToDoList.Core;
 
-namespace ToDoList.Core.ViewModels.Controls
+namespace ToDoList.Core
 {
-    internal class WorkTaskViewModel
+    public class WorkTaskViewModel
     {
         public string Title { get; set; }
         public string Description { get; set; }

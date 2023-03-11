@@ -5,10 +5,29 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ToDoList"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="600" d:DesignWidth="1000"
       Title="WorkTasksPage">
 
-    <Grid>
-        <TextBlock Text="List of chores to do today." VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+    <Grid Height="600">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="List of chores to do today: "></TextBlock>
+            <ScrollViewer>
+                <ItemsControl ItemsSource="{Binding WorkTasksList}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <local:WorkTask/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+            <TextBlock Text="Task Name: "></TextBlock>
+            <TextBox Text="{Binding NewWorkTaskTitle}"></TextBox>
+            <TextBlock Text="Task Description: "></TextBlock>
+            <TextBox Text="{Binding NewWorkTaskDescription}"></TextBox>
+            <StackPanel Orientation="Horizontal">
+                <Button Content="Add Task" Command="{Binding AddNewTaskCommand}"></Button>
+                <Button Content="Delete Task"></Button>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

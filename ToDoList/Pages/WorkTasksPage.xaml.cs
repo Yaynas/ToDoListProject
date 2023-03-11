@@ -1,4 +1,5 @@
 ﻿using System.Windows.Controls;
+using ToDoList.Core;
 
 namespace ToDoList
 {
@@ -10,6 +11,9 @@ namespace ToDoList
         public WorkTasksPage()
         {
             InitializeComponent();
+
+            DataContext = new WorkTaskPageViewModel();
+
         }
     }
 }
