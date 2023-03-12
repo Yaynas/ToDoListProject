@@ -5,13 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ToDoList"
       mc:Ignorable="d" 
-      d:DesignHeight="600" d:DesignWidth="1000"
       Title="WorkTasksPage">
-
-    <Grid Height="600">
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid >
+        <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="List of chores to do today: "></TextBlock>
-            <ScrollViewer>
+            <ScrollViewer Height="550">
                 <ItemsControl ItemsSource="{Binding WorkTasksList}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
@@ -21,13 +19,29 @@
                 </ItemsControl>
             </ScrollViewer>
             <TextBlock Text="Task Name: "></TextBlock>
-            <TextBox Text="{Binding NewWorkTaskTitle}"></TextBox>
+            <TextBox Text="{Binding NewWorkTaskTitle, Mode=TwoWay}"></TextBox>
             <TextBlock Text="Task Description: "></TextBlock>
-            <TextBox Text="{Binding NewWorkTaskDescription}"></TextBox>
-            <StackPanel Orientation="Horizontal">
-                <Button Content="Add Task" Command="{Binding AddNewTaskCommand}"></Button>
-                <Button Content="Delete Task"></Button>
-            </StackPanel>
+            <TextBox Text="{Binding NewWorkTaskDescription, Mode=TwoWay}"></TextBox>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" Style="{StaticResource ButtonBorder}">
+                    <Button 
+                        Content="Add Task" 
+                        Style="{StaticResource DefaultStyle}"
+                        Command="{Binding AddNewTaskCommand}">
+                    </Button>
+                </Border>
+                <Border Grid.Column="1">
+                    <Button 
+                        Content="Delete Task" 
+                        Style="{StaticResource DefaultStyle}"
+                        Command="{Binding DeleteSelectedTaskCommand}">
+                    </Button>
+                </Border>           
+            </Grid>
         </StackPanel>
     </Grid>
 </Page>

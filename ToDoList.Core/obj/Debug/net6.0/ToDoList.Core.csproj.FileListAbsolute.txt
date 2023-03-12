@@ -10,3 +10,5 @@ D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.dl
 D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\refint\ToDoList.Core.dll
 D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.pdb
 D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ref\ToDoList.Core.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.Fody.CopyLocal.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.Fody.RuntimeCopyLocal.cache

@@ -7,6 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="1000">
     <StackPanel Orientation="Horizontal">
+        <CheckBox IsChecked="{Binding IsSelected}"></CheckBox>
         <TextBlock Text ="{Binding Title}" Margin="2" FontWeight="Bold"></TextBlock>
         <TextBlock Text ="{Binding Description}" Margin="2"></TextBlock>
         <TextBlock Text ="{Binding CreatedDate}" Margin="2"></TextBlock>

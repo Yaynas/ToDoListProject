@@ -27,3 +27,7 @@ D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\ref\ToDoList.
 D:\SISZARP NAUKA\ToDoListProject\ToDoList\bin\Debug\net6.0-windows\ToDoList.Core.dll
 D:\SISZARP NAUKA\ToDoListProject\ToDoList\bin\Debug\net6.0-windows\ToDoList.Core.pdb
 D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\ToDoList.csproj.CopyComplete
+D:\SISZARP NAUKA\ToDoListProject\ToDoList\bin\Debug\net6.0-windows\PropertyChanged.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\Styles\Buttons.baml
+D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\App.baml
+D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\Styles\Borders.baml
