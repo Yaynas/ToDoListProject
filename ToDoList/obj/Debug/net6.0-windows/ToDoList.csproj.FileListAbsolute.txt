@@ -30,4 +30,3 @@ D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\ToDoList.cspr
 D:\SISZARP NAUKA\ToDoListProject\ToDoList\bin\Debug\net6.0-windows\PropertyChanged.dll
 D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\Styles\Buttons.baml
 D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\App.baml
-D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\Styles\Borders.baml

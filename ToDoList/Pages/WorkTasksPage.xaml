@@ -27,20 +27,18 @@
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <Border Grid.Column="0" Style="{StaticResource ButtonBorder}">
-                    <Button 
-                        Content="Add Task" 
-                        Style="{StaticResource DefaultStyle}"
-                        Command="{Binding AddNewTaskCommand}">
-                    </Button>
-                </Border>
-                <Border Grid.Column="1">
-                    <Button 
-                        Content="Delete Task" 
-                        Style="{StaticResource DefaultStyle}"
-                        Command="{Binding DeleteSelectedTaskCommand}">
-                    </Button>
-                </Border>           
+
+                <Button Grid.Column="0"
+                    Template="{DynamicResource AddButton}" 
+                    Content="Add Task"
+                    Command="{Binding AddNewTaskCommand}">
+                </Button>
+
+                <Button Grid.Column="1" 
+                    Template="{DynamicResource DeleteButton}"     
+                    Content="Delete Task" 
+                    Command="{Binding DeleteSelectedTaskCommand}">
+                </Button>
             </Grid>
         </StackPanel>
     </Grid>
