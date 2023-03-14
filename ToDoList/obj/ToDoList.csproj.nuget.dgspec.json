@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList\\ToDoList.csproj": {}
+    "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList\\ToDoList.csproj": {}
   },
   "projects": {
-    "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj": {
+    "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
+        "projectUniqueName": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
         "projectName": "ToDoList.Core",
-        "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
+        "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
         "packagesPath": "C:\\Users\\kjanas\\.nuget\\packages\\",
-        "outputPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\obj\\",
+        "outputPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,14 +71,14 @@
         }
       }
     },
-    "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList\\ToDoList.csproj": {
+    "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList\\ToDoList.csproj",
+        "projectUniqueName": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList\\ToDoList.csproj",
+        "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\kjanas\\.nuget\\packages\\",
-        "outputPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList\\obj\\",
+        "outputPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -101,8 +101,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj": {
-                "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj"
+              "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj": {
+                "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj"
               }
             }
           }

@@ -12,3 +12,17 @@ D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.pd
 D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ref\ToDoList.Core.dll
 D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.Fody.CopyLocal.cache
 D:\SISZARP NAUKA\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.Fody.RuntimeCopyLocal.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\bin\Debug\net6.0\ToDoList.Core.deps.json
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\bin\Debug\net6.0\ToDoList.Core.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\bin\Debug\net6.0\ToDoList.Core.pdb
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.AssemblyReference.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.AssemblyInfoInputs.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.AssemblyInfo.cs
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.CoreCompileInputs.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.Fody.CopyLocal.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.Fody.RuntimeCopyLocal.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\refint\ToDoList.Core.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.pdb
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ref\ToDoList.Core.dll

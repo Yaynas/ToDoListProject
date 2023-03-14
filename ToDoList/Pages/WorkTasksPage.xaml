@@ -5,12 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ToDoList"
       mc:Ignorable="d" 
-      Title="WorkTasksPage">
-    <Grid >
-        <StackPanel  HorizontalAlignment="Center" VerticalAlignment="Center">
-            <TextBlock Text="List of chores to do today: "></TextBlock>
+      Title="WorkTasksPage"
+      Background="#F8F8EC">
+    <Grid Margin="8">
+        <StackPanel Width="400" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="List of chores to do today: " FontWeight="Bold"></TextBlock>
             <ScrollViewer Height="550">
-                <ItemsControl ItemsSource="{Binding WorkTasksList}">
+                <ItemsControl Style="{DynamicResource ScrollViewerDefault}" ItemsSource="{Binding WorkTasksList}">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <local:WorkTask/>
@@ -18,24 +19,23 @@
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
             </ScrollViewer>
-            <TextBlock Text="Task Name: "></TextBlock>
-            <TextBox Text="{Binding NewWorkTaskTitle, Mode=TwoWay}"></TextBox>
-            <TextBlock Text="Task Description: "></TextBlock>
-            <TextBox Text="{Binding NewWorkTaskDescription, Mode=TwoWay}"></TextBox>
+            <TextBlock Text="Task Name: " FontWeight="Bold"></TextBlock>
+            <TextBox Style="{DynamicResource TextBoxDefault}" Text="{Binding NewWorkTaskTitle, Mode=TwoWay}"></TextBox>
+            <TextBlock Text="Task Description: " FontWeight="Bold"></TextBlock>
+            <TextBox Style="{DynamicResource TextBoxDefault}" Text="{Binding NewWorkTaskDescription, Mode=TwoWay}"></TextBox>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition></ColumnDefinition>
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-
                 <Button Grid.Column="0"
-                    Template="{DynamicResource AddButton}" 
+                    Style="{DynamicResource ButtonAdd}"    
                     Content="Add Task"
+                    
                     Command="{Binding AddNewTaskCommand}">
                 </Button>
-
                 <Button Grid.Column="1" 
-                    Template="{DynamicResource DeleteButton}"     
+                    Style="{DynamicResource ButtonDelete}"
                     Content="Delete Task" 
                     Command="{Binding DeleteSelectedTaskCommand}">
                 </Button>

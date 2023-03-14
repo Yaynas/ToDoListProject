@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoList"
         mc:Ignorable="d"
-        Title="MainWindow" MinHeight="600" MinWidth="1000">
+        Title="To Do List App" 
+        SizeToContent="WidthAndHeight"
+        ResizeMode="CanMinimize">
     <local:WorkTasksPage/>
 </Window>

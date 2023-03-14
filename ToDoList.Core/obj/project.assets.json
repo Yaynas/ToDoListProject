@@ -97,11 +97,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
+      "projectUniqueName": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
       "projectName": "ToDoList.Core",
-      "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
+      "projectPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\ToDoList.Core.csproj",
       "packagesPath": "C:\\Users\\kjanas\\.nuget\\packages\\",
-      "outputPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList.Core\\obj\\",
+      "outputPath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

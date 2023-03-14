@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\SISZARP NAUKA\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList\obj\Debug\net6.0-windows\
 ToDoList
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\SISZARP NAUKA\ToDoListProject\ToDoList\App.xaml
-4-1509234961
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList\App.xaml
+61647654733
 
 7-1930585867
-196489196624
-Controls\WorkTask.xaml;MainWindow.xaml;Pages\WorkTasksPage.xaml;Styles\Buttons.xaml;
+196988570573
+Controls\WorkTask.xaml;MainWindow.xaml;Pages\WorkTasksPage.xaml;Styles\Buttons.xaml;Styles\ScrollViewers.xaml;Styles\TextBoxes.xaml;
 
-False
+True
 

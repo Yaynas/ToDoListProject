@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0NJSMAMg3YsKh+NkYQcVtXet8J3GS0QSOUK/ksEvK01naGDxUfbp2StyaPscL1MtdwL8W74hhuaRV1yPQT1fOA==",
+  "dgSpecHash": "u5WxJepL9wcquHpHcYP6n90LhbHIHGje5JT8iu2e/H6atvKNTN/c/XD6ION9cTZbs7PcHfzK4i/BCLKHE7xC1A==",
   "success": true,
-  "projectFilePath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoList\\ToDoList.csproj",
+  "projectFilePath": "D:\\SISZARP NAUKA\\ToDoListProject\\ToDoListProject\\ToDoList\\ToDoList.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kjanas\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",
     "C:\\Users\\kjanas\\.nuget\\packages\\propertychanged.fody\\4.1.0\\propertychanged.fody.4.1.0.nupkg.sha512"
