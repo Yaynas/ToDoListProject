@@ -20,7 +20,7 @@
                 </ItemsControl>
             </ScrollViewer>
             <TextBlock Text="Task Name: " FontWeight="Bold"></TextBlock>
-            <TextBox Style="{DynamicResource TextBoxDefault}" Text="{Binding NewWorkTaskTitle, Mode=TwoWay}"></TextBox>
+            <TextBox Style="{DynamicResource TextBoxDefault}" Text="{Binding NewWorkTaskTitle, Mode=TwoWay}" Name="TaskNameTextBox"></TextBox>
             <TextBlock Text="Task Description: " FontWeight="Bold"></TextBlock>
             <TextBox Style="{DynamicResource TextBoxDefault}" Text="{Binding NewWorkTaskDescription, Mode=TwoWay}"></TextBox>
             <Grid>
@@ -31,8 +31,8 @@
                 <Button Grid.Column="0"
                     Style="{DynamicResource ButtonAdd}"    
                     Content="Add Task"
-                    
-                    Command="{Binding AddNewTaskCommand}">
+                    Command="{Binding AddNewTaskCommand}"
+                    Click="AddTask_ButtonClick">
                 </Button>
                 <Button Grid.Column="1" 
                     Style="{DynamicResource ButtonDelete}"

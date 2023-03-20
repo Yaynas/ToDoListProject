@@ -1,4 +1,6 @@
 ﻿using System.Windows.Controls;
+using System.Windows.Data;
+using ToDoList.Core;
 
 namespace ToDoList
 {
@@ -9,7 +11,8 @@ namespace ToDoList
     {
         public WorkTask()
         {
-            InitializeComponent();
+            InitializeComponent();      
         }
+
     }
 }

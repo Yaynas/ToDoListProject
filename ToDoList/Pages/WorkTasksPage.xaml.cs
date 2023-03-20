@@ -1,4 +1,6 @@
-﻿using System.Windows.Controls;
+﻿using System.Linq;
+using System.Windows;
+using System.Windows.Controls;
 using ToDoList.Core;
 
 namespace ToDoList
@@ -15,5 +17,15 @@ namespace ToDoList
             DataContext = new WorkTaskPageViewModel();
 
         }
+
+        private void AddTask_ButtonClick(object sender, System.Windows.RoutedEventArgs e)
+        {
+            
+            if (string.IsNullOrEmpty(TaskNameTextBox.Text))
+            {
+                MessageBox.Show("You must name the task before adding it!");
+            }
+        }
+
     }
 }
