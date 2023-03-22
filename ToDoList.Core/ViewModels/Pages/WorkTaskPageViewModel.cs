@@ -17,13 +17,16 @@ public class WorkTaskPageViewModel : BaseViewModel
 {
     public ObservableCollection<WorkTaskViewModel> WorkTasksList { get; set; } = new ObservableCollection<WorkTaskViewModel>();
 
+    private readonly IMessageService messageService;
     public string NewWorkTaskTitle { get; set; }
     public string NewWorkTaskDescription { get; set; }
     public ICommand AddNewTaskCommand { get; set; }
     public ICommand DeleteSelectedTaskCommand { get; set; }
 
-    public WorkTaskPageViewModel()
-    {        
+    public WorkTaskPageViewModel(IMessageService messageService)
+    {
+        this.messageService = messageService;
+
         AddNewTaskCommand = new RelayCommand(AddNewTask);
         DeleteSelectedTaskCommand = new RelayCommand(DeleteSelectedTask);
     }
@@ -43,7 +46,11 @@ public class WorkTaskPageViewModel : BaseViewModel
             NewWorkTaskTitle = string.Empty;
             NewWorkTaskDescription = string.Empty;
         }
-                 
+        else
+        {
+            messageService.DisplayMessage("Title is required. Add it before saving task");
+        }
+
     }
 
     private void DeleteSelectedTask()
