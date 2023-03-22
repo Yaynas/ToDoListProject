@@ -49,11 +49,9 @@ public class WorkTaskPageViewModel : BaseViewModel
     private void DeleteSelectedTask()
     {
         var selectedTasks = WorkTasksList.Where(x => x.IsSelected).ToList();
-
         foreach (var task in selectedTasks)
         {
             WorkTasksList.Remove(task);
-        }       
+        }
     }
-
 }
