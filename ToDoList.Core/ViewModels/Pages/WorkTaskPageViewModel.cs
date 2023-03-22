@@ -56,6 +56,11 @@ public class WorkTaskPageViewModel : BaseViewModel
     private void DeleteSelectedTask()
     {
         var selectedTasks = WorkTasksList.Where(x => x.IsSelected).ToList();
+
+        if(selectedTasks.Count == 0) 
+        {
+            messageService.DisplayMessage("You must choose at least 1 task to delete. Do it by clicking on checkbox.");
+        }
         foreach (var task in selectedTasks)
         {
             WorkTasksList.Remove(task);

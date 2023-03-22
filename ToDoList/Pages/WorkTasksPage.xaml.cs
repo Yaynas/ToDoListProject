@@ -8,14 +8,12 @@ namespace ToDoList
     /// </summary>
     public partial class WorkTasksPage : Page, IMessageService
     {
-        private readonly WorkTaskPageViewModel viewModel;
 
         public WorkTasksPage()
         {
             InitializeComponent();
 
-            viewModel = new WorkTaskPageViewModel(this);
-            DataContext = viewModel;
+            DataContext = new WorkTaskPageViewModel(this);
         }
 
         public void DisplayMessage(string message)
