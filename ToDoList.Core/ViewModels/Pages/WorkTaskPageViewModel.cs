@@ -22,6 +22,8 @@ public class WorkTaskPageViewModel : BaseViewModel
     public string NewWorkTaskDescription { get; set; }
     public ICommand AddNewTaskCommand { get; set; }
     public ICommand DeleteSelectedTaskCommand { get; set; }
+    public ICommand CloseApp { get; set; }
+    public ICommand MinimizeApp { get; set; }
 
     public WorkTaskPageViewModel(IMessageService messageService)
     {
@@ -29,6 +31,8 @@ public class WorkTaskPageViewModel : BaseViewModel
 
         AddNewTaskCommand = new RelayCommand(AddNewTask);
         DeleteSelectedTaskCommand = new RelayCommand(DeleteSelectedTask);
+        CloseApp = new RelayCommand(CloseAppPageViewModel);
+        MinimizeApp = new RelayCommand(MinimizeAppPageViewModel);
     }
     private void AddNewTask()
     {
@@ -66,4 +70,16 @@ public class WorkTaskPageViewModel : BaseViewModel
             WorkTasksList.Remove(task);
         }
     }
+
+    private void CloseAppPageViewModel()
+    {
+        messageService.CloseAppMessage();
+    }
+
+    private void MinimizeAppPageViewModel()
+    {
+        messageService.MinimizeAppMessage();
+    }
+
+
 }

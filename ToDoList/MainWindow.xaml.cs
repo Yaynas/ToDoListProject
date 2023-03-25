@@ -23,6 +23,17 @@ namespace ToDoList
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        public void MinimizeMianWindow()
+        {
+            WindowState = WindowState.Minimized;
+        }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
         }
     }
 }

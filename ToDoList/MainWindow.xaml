@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="To Do List App" 
         SizeToContent="WidthAndHeight"
-        ResizeMode="CanMinimize">
+        ResizeMode="CanMinimize"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True"
+        MouseDown="Window_MouseDown">
     <local:WorkTasksPage/>
 </Window>

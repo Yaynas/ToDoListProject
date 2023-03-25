@@ -9,4 +9,8 @@ namespace ToDoList.Core;
 public interface IMessageService
 {
     void DisplayMessage(string message);
+
+    void CloseAppMessage();
+
+    void MinimizeAppMessage();
 }
