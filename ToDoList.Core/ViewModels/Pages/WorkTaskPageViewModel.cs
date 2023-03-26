@@ -33,19 +33,56 @@ public class WorkTaskPageViewModel : BaseViewModel
         DeleteSelectedTaskCommand = new RelayCommand(DeleteSelectedTask);
         CloseApp = new RelayCommand(CloseAppPageViewModel);
         MinimizeApp = new RelayCommand(MinimizeAppPageViewModel);
+
+        DBLocator.ListDatabase.WorkTask.ToList();
+
+        foreach(var task in DBLocator.ListDatabase.WorkTask.ToList())
+        {
+            WorkTasksList.Add(new WorkTaskViewModel
+            {
+                Id = task.Id,
+                Title = task.Title,
+                Description = task.Description,
+                CreatedDate = task.CreatedDate
+            });
+
+
+        }
     }
     private void AddNewTask()
     {
-        if(!String.IsNullOrEmpty(NewWorkTaskTitle))
+        var countedTasks = WorkTasksList.ToList();
+        int IdTemp;
+        if(countedTasks.Count > 0)
         {
+            IdTemp = DBLocator.ListDatabase.WorkTask.OrderByDescending(x => x.Id).First().Id + 1;
+        }
+        else
+        {
+            IdTemp = 1;
+        }
+        if (!String.IsNullOrEmpty(NewWorkTaskTitle))
+        {
+
+            
             var NewTask = new WorkTaskViewModel
-            {
+            {                
+                Id = IdTemp,
                 Title = NewWorkTaskTitle,
                 Description = NewWorkTaskDescription,
                 CreatedDate = DateTime.Now
             };
 
             WorkTasksList.Add(NewTask);
+            DBLocator.ListDatabase.WorkTask.Add(new Database.WorkTask
+            {
+                Id = NewTask.Id,
+                Title = NewTask.Title,
+                Description = NewTask.Description,
+                CreatedDate = NewTask.CreatedDate
+            });
+
+            DBLocator.ListDatabase.SaveChanges();
 
             NewWorkTaskTitle = string.Empty;
             NewWorkTaskDescription = string.Empty;
@@ -60,7 +97,7 @@ public class WorkTaskPageViewModel : BaseViewModel
     private void DeleteSelectedTask()
     {
         var selectedTasks = WorkTasksList.Where(x => x.IsSelected).ToList();
-
+        
         if(selectedTasks.Count == 0) 
         {
             messageService.DisplayMessage("You must choose at least 1 task to delete. Do it by clicking on checkbox.");
@@ -68,7 +105,15 @@ public class WorkTaskPageViewModel : BaseViewModel
         foreach (var task in selectedTasks)
         {
             WorkTasksList.Remove(task);
+            var foundTask = DBLocator.ListDatabase.WorkTask.FirstOrDefault(x => x.Id == task.Id);
+
+            if (foundTask != null)
+            {
+                DBLocator.ListDatabase.WorkTask.Remove(foundTask);
+            }
         }
+
+        DBLocator.ListDatabase.SaveChanges();
     }
 
     private void CloseAppPageViewModel()

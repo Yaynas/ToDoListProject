@@ -14,6 +14,7 @@
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" Orientation="Horizontal">
                 <CheckBox IsChecked="{Binding IsSelected}" HorizontalAlignment="Center" VerticalAlignment="Center"></CheckBox>
+                <TextBlock Text ="{Binding Id}" Foreground="PaleVioletRed" Margin="2" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                 <TextBlock Text ="{Binding Title}" Margin="2" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
                 <TextBlock Text ="{Binding Description}" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
             </StackPanel>

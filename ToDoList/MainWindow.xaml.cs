@@ -23,7 +23,6 @@ namespace ToDoList
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         public void MinimizeMianWindow()

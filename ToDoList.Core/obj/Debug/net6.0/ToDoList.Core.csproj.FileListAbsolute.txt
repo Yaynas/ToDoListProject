@@ -26,3 +26,6 @@ D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\
 D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\refint\ToDoList.Core.dll
 D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.pdb
 D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ref\ToDoList.Core.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\bin\Debug\net6.0\ToDoList.Database.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\bin\Debug\net6.0\ToDoList.Database.pdb
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Core\obj\Debug\net6.0\ToDoList.Core.csproj.CopyComplete

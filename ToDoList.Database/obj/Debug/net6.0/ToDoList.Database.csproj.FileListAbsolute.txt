@@ -1,0 +1,12 @@
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ToDoList.Database.csproj.AssemblyReference.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ToDoList.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ToDoList.Database.AssemblyInfoInputs.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ToDoList.Database.AssemblyInfo.cs
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ToDoList.Database.csproj.CoreCompileInputs.cache
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\bin\Debug\net6.0\ToDoList.Database.deps.json
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\bin\Debug\net6.0\ToDoList.Database.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\bin\Debug\net6.0\ToDoList.Database.pdb
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ToDoList.Database.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\refint\ToDoList.Database.dll
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ToDoList.Database.pdb
+D:\SISZARP NAUKA\ToDoListProject\ToDoListProject\ToDoList.Database\obj\Debug\net6.0\ref\ToDoList.Database.dll
